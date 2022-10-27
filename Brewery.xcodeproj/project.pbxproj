@@ -16,6 +16,7 @@
 		69596651290ABF6D00C07F04 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 69596650290ABF6D00C07F04 /* Kingfisher */; };
 		69596653290AC0A900C07F04 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69596652290AC0A900C07F04 /* Beer.swift */; };
 		69596655290AC2EA00C07F04 /* BeerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69596654290AC2EA00C07F04 /* BeerListCell.swift */; };
+		69596657290AC8E700C07F04 /* BeerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69596656290AC8E700C07F04 /* BeerDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6959664A290ABDFC00C07F04 /* BeerListVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListVIewController.swift; sourceTree = "<group>"; };
 		69596652290AC0A900C07F04 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		69596654290AC2EA00C07F04 /* BeerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListCell.swift; sourceTree = "<group>"; };
+		69596656290AC8E700C07F04 /* BeerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				6959664A290ABDFC00C07F04 /* BeerListVIewController.swift */,
 				69596652290AC0A900C07F04 /* Beer.swift */,
 				69596654290AC2EA00C07F04 /* BeerListCell.swift */,
+				69596656290AC8E700C07F04 /* BeerDetailViewController.swift */,
 			);
 			path = Brewery;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69596637290ABD5200C07F04 /* AppDelegate.swift in Sources */,
+				69596657290AC8E700C07F04 /* BeerDetailViewController.swift in Sources */,
 				69596639290ABD5200C07F04 /* SceneDelegate.swift in Sources */,
 				6959664B290ABDFC00C07F04 /* BeerListVIewController.swift in Sources */,
 				69596653290AC0A900C07F04 /* Beer.swift in Sources */,
