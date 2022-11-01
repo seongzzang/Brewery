@@ -16,10 +16,8 @@ class BeerListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        //UINavigationBar
-        title = "브루어리"
-        navigationController?.navigationBar.prefersLargeTitles = true
+        
+        setupNavigationController()
         
         //UITableView 설정
         tableView.register(BeerListCell.self, forCellReuseIdentifier: "BeerListCell")
@@ -29,7 +27,14 @@ class BeerListViewController: UITableViewController {
         fetchBeer(of: currentPage)
     }
     
+    func setupNavigationController() {
+        //UINavigationBar
+        navigationItem.title = "브루어리"
+        navigationItem.largeTitleDisplayMode = .always
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
 }
+
 
 //UITableView DataSource, Delegate
 extension BeerListViewController: UITableViewDataSourcePrefetching{
